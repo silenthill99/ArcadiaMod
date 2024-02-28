@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "arcadia_mod:block/display_case"
+    },
+    "facing=south": {
+      "model": "arcadia_mod:block/display_case",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "arcadia_mod:block/display_case",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "arcadia_mod:block/display_case",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "arcadia_mod:banana"
+    },
+    {
+      "item": "arcadia_mod:cup"
+    }
+  ],
+  "result": {
+    "item": "arcadia_mod:banana_juice"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "group": "arcadia_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "arcadia_mod:verenium_ingot"
+    }
+  },
+  "result": {
+    "item": "arcadia_mod:verenium_block",
+    "count": 1
+  }
+}

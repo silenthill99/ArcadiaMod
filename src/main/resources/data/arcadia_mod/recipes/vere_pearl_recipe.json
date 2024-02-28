@@ -1,0 +1,21 @@
+{
+  "group": "arcadia_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "010",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "arcadia_mod:verenium_ingot"
+    },
+    "1": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "item": "arcadia_mod:vere_pearl",
+    "count": 1
+  }
+}

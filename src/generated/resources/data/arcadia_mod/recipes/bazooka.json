@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "010",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "arcadia_mod:part_of_verenium_block"
+    },
+    "1": {
+      "item": "minecraft:tnt"
+    }
+  },
+  "result": {
+    "item": "arcadia_mod:bazooka"
+  }
+}

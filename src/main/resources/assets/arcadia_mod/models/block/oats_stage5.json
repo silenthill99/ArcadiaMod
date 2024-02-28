@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "arcadia_mod:blocks/oats_stage5"
+  }
+}

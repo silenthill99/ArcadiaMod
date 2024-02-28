@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "0 0"
+  ],
+  "key": {
+    "0": {
+      "item": "arcadia_mod:ruby"
+    }
+  },
+  "result": {
+    "item": "arcadia_mod:ruby_boots"
+  }
+}

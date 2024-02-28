@@ -1,0 +1,9 @@
+{
+  "parent": "arcadia_mod",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "arcadia_mod:verenium_block"
+  },
+  "result": "arcadia_mod:part_of_verenium_block"
+}

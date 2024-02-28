@@ -1,0 +1,67 @@
+{
+  "on_m_appelle_fuze_iii": {
+    "sounds": [
+      {
+        "name": "arcadia_mod:on_m_appelle_fuze_iii",
+        "stream": true
+      }
+    ]
+  },
+  "anti_anti_fuze": {
+    "sounds": [
+      {
+        "name": "arcadia_mod:anti_anti_fuze",
+        "stream": true
+      }
+    ]
+  },
+  "la_roulette_paladienne": {
+    "sounds": [
+      {
+        "name": "arcadia_mod:la_roulette_paladienne",
+        "stream": true
+      }
+    ]
+  },
+  "king_s_castle": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "arcadia_mod:king_s_castle",
+        "stream": true
+      }
+    ]
+  },
+  "epic-fantasy": {
+    "sounds": [
+      {
+        "name": "arcadia_mod:epic-fantasy",
+        "stream": true
+      }
+    ]
+  },
+  "dead-forest": {
+    "sounds": [
+      {
+        "name": "arcadia_mod:dead-forest-brian-bolger",
+        "stream": true
+      }
+    ]
+  },
+  "black-mass": {
+    "sounds": [
+      {
+        "name": "arcadia_mod:black-mass-brian-bolger",
+        "stream": true
+      }
+    ]
+  },
+  "musique-epique": {
+    "sounds": [
+      {
+        "name": "arcadia_mod:musique-epique",
+        "stream": true
+      }
+    ]
+  }
+}

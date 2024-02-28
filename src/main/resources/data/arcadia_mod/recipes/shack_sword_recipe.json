@@ -1,0 +1,21 @@
+{
+  "group": "arcadia_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "010",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    },
+    "1": {
+      "item": "minecraft:diamond_sword"
+    }
+  },
+  "result": {
+    "item": "arcadia_mod:shack_sword",
+    "count": 1
+  }
+}

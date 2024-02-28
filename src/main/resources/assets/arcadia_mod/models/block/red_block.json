@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "arcadia_mod:blocks/red_block"
+  }
+}

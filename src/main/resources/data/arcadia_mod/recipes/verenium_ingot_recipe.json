@@ -1,0 +1,13 @@
+{
+  "group": "arcadia_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "arcadia_mod:verenium_block"
+    }
+  ],
+  "result": {
+    "item": "arcadia_mod:verenium_ingot",
+    "count": 9
+  }
+}
