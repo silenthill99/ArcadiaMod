@@ -3,7 +3,6 @@ package fr.silenthill99.arcadia_mod.data.loot_tables;
 import com.google.common.collect.ImmutableList;
 import com.mojang.datafixers.util.Pair;
 import fr.silenthill99.arcadia_mod.data.loot_tables.blocks.BlockLootTablesGenerator;
-import jdk.nashorn.internal.ir.Block;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.LootTableProvider;
 import net.minecraft.loot.*;

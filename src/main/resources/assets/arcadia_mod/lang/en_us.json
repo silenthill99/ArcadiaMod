@@ -105,11 +105,11 @@
   "item.arcadia_mod.verenium_shovel": "Verenium shovel",
   "item.arcadia_mod.verenium_sword": "Verenium sword",
   "item.arcadia_mod.vere_pearl": "VerePearl",
-  "itemGroup.ArcadiaMod_armor": "ArcadiaMod: Armors",
-  "itemGroup.ArcadiaMod_dynamites": "ArcadiaMod : Dynamites",
-  "itemGroup.ArcadiaMod_food": "ArcadiaMod : Food",
-  "itemGroup.ArcadiaMod_minerais": "ArcadiaMod : ore",
-  "itemGroup.ArcadiaMod_music": "ArcadiaMod : musics",
-  "itemGroup.ArcadiaMod_outils": "ArcadiaMod : Tools",
-  "itemGroup.ArcadiaMod_weapons": "ArcadiaMod : weapons"
+  "itemGroup.arcadiamod_armor": "ArcadiaMod: Armors",
+  "itemGroup.arcadiamod_dynamites": "ArcadiaMod : Dynamites",
+  "itemGroup.arcadiamod_food": "ArcadiaMod : Food",
+  "itemGroup.arcadiamod_minerais": "ArcadiaMod : ore",
+  "itemGroup.arcadiamod_music": "ArcadiaMod : musics",
+  "itemGroup.arcadiamod_outils": "ArcadiaMod : Tools",
+  "itemGroup.arcadiamod_weapons": "ArcadiaMod : weapons"
 }

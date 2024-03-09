@@ -5,7 +5,9 @@ import fr.silenthill99.arcadia_mod.init.ModBlocks;
 import fr.silenthill99.arcadia_mod.init.ModItems;
 import net.minecraft.advancements.criterion.StatePropertiesPredicate;
 import net.minecraft.block.Block;
+import net.minecraft.block.CropsBlock;
 import net.minecraft.data.loot.BlockLootTables;
+import net.minecraft.item.Item;
 import net.minecraft.loot.conditions.BlockStateProperty;
 import net.minecraft.loot.conditions.ILootCondition;
 import net.minecraftforge.fml.RegistryObject;
@@ -31,9 +33,15 @@ public class BlockLootTablesGenerator extends BlockLootTables {
         dropSelf(ModBlocks.OCTORIUM.get());
         dropSelf(ModBlocks.DISPLAY_CASE.get());
         dropSelf(ModBlocks.CONTAINER.get());
-        dropOther(ModBlocks.OATS.get(), ModItems.OATS.get());
+        cropDrop((OatsBlock) ModBlocks.OATS.get(), 7, ModItems.OATS.get(), ModBlocks.OATS.get().asItem());
+//        ILootCondition.IBuilder oats_drop_condition = BlockStateProperty.hasBlockStateProperties(ModBlocks.OATS.get()).setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(OatsBlock.AGE, 3));
+//        add(ModBlocks.OATS.get(), block -> createCropDrops(block, ModItems.OATS.get(), ModBlocks.OATS.get().asItem(), oats_drop_condition));
     }
 
+    private <T extends CropsBlock> void cropDrop(T cropsBlock, int age, Item item1, Item item2) {
+        ILootCondition.IBuilder drop_condition = BlockStateProperty.hasBlockStateProperties(cropsBlock).setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(T.AGE, age));
+        add(cropsBlock, block -> createCropDrops(block, item1, item2, drop_condition));
+    }
 
     @Override
     protected Iterable<Block> getKnownBlocks() {
@@ -42,4 +50,5 @@ public class BlockLootTablesGenerator extends BlockLootTables {
                 .map(RegistryObject::get)
                 .collect(Collectors.toList());
     }
+
 }

@@ -1,16 +1,12 @@
 package fr.silenthill99.arcadia_mod.data.recipes;
 
-import fr.silenthill99.arcadia_mod.Main;
 import fr.silenthill99.arcadia_mod.init.ModBlocks;
 import fr.silenthill99.arcadia_mod.init.ModItems;
 import net.minecraft.advancements.criterion.InventoryChangeTrigger;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.*;
 import net.minecraft.item.Items;
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.tags.ITag;
 import net.minecraft.tags.ItemTags;
-import net.minecraft.util.ResourceLocation;
 
 import java.util.function.Consumer;
 
@@ -93,6 +89,15 @@ public class RecipeGenerator extends RecipeProvider
                 .pattern("0 0")
                 .define('0', ModItems.CHROMIUM_INGOT.get())
                 .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.CHROMIUM_INGOT.get()))
+                .save(consumer);
+
+        ShapedRecipeBuilder.shaped(ModItems.CHROMIUM_HOE.get())
+                .pattern("00")
+                .pattern(" 1")
+                .pattern(" 1")
+                .define('0', ModItems.CHROMIUM_HOE.get())
+                .define('1', Items.STICK)
+                .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.CHROMIUM_HOE.get(), Items.STICK))
                 .save(consumer);
     }
 }
